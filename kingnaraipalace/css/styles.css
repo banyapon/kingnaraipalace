@@ -1,0 +1,480 @@
+/*
+Daydev Co., Ltd.
+*/
+
+@font-face {
+    font-family: 'Caudex', sans-serif;
+    src: url(../fonts/Caudex-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Noto Looped Thai';
+    src: url(../fonts/NotoSansThaiLooped-Medium.ttf);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 50px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 26px;
+}
+
+.title {
+    font-family: 'Caudex';
+    font-style: normal;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #FBC94C 0%, #DFB650 26.04%, #EFD89E 62.5%, #FFF0CB 86.98%, #EBBF4E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title_th {
+    padding-top: 50px;
+    font-family: 'Noto Looped Thai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #FBC94C;
+}
+
+.background_main {
+    background: url('../images/126985.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background_sutha {
+    background: url('../images/suttha.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content_contact{
+    font-family: 'Noto Looped Thai';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    text-shadow: 0 0 black;
+    padding: 30% 30px 0px 30px;
+    color: #FBC94C;
+    text-shadow: 2px 2px #000;
+}
+
+.bg_yellow{
+    background-color: #FBC94C;
+    width: 70%;
+    float: right;
+}
+
+.background_contact {
+    background: url('../images/contact.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background_attr {
+    background: url('../images/1330.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background_phang{
+    background: url('../images/phang.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background_watmahathat{
+    background: url('../images/watmahathat.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background_ambassadors{
+    background: url('../images/ambassadors.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background_phangkhaek{
+    background: url('../images/phangkhaek.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background_watsaotongthong{
+    background: url('../images/watsaotongthong.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100vh;
+    width: 100vw;
+}
+
+.white_font{
+    font-family: 'Noto Looped Thai';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    color: #FFF;
+}
+
+.white_font_h{
+    font-family: 'Noto Looped Thai';
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: left;
+    color: #FFF;
+}
+
+.background_about {
+    background: url('../images/about.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bg_white{
+    background: url('../images/white.png') !important;
+    background-size: cover !important;
+    height: auto;
+    width: 91%;
+}
+
+.profile{
+    padding: 35px 20px 20px 20px;
+    font-family: 'Noto Looped Thai';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 60px;
+}
+
+.profile h2{
+    font-family: 'Noto Looped Thai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color:#374E48;
+}
+
+.normal_th {
+    padding-top: 10px;
+    font-family: 'Noto Looped Thai';
+    font-style: bold;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+    color: #0c0c0c;
+}
+
+.welcome {
+    font-family: 'Noto Looped Thai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 51px;
+    border: 0px;
+    text-align: center;
+    color: #374E48 !important;
+}
+
+.content {
+    font-family: 'Noto Looped Thai';
+}
+
+.gallery_top{
+    padding-top: 30px;
+}
+
+.gallery_content{
+    font-family: 'Noto Looped Thai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 51px;
+    border: 0px;
+    text-align: center;
+    color: #374E48 !important;
+}
+
+.main_content {
+    font-family: 'Noto Looped Thai';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    text-shadow: 0 0 black;
+    padding: 60% 30px 0px 30px;
+    color: #FBC94C;
+    text-shadow: 2px 2px #000;
+}
+
+.main_content_en {
+    font-family: 'Caudex';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    text-shadow: 0 0 black;
+    padding: 60% 30px 0px 30px;
+    color: #FBC94C;
+    text-shadow: 2px 2px #000;
+}
+
+.content {
+    font-family: 'Noto Looped Thai';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    text-shadow: 0 0 black;
+    padding: 70% 30px 0px 30px;
+    color: #FBC94C;
+    text-shadow: 2px 2px #000;
+}
+
+.content_full {
+    font-family: 'Noto Looped Thai';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    text-shadow: 0 0 black;
+    padding: 50% 30px 0px 30px;
+    color: #FBC94C;
+    text-shadow: 2px 2px #000;
+}
+
+.content_full h1 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.content h1 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.content-page {
+    font-family: 'Noto Looped Thai';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    text-shadow: 0 0 black;
+    padding: 73% 30px 0px 30px;
+    color: #FBC94C;
+    text-shadow: 2px 2px #000;
+}
+
+.content-page h1 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.button_main {
+    border-bottom: solid 1px #fff;
+}
+
+.fixed_right {
+    text-align: left !important;
+}
+
+.list_main {
+    font-family: 'Noto Looped Thai';
+    color: #fff !important;
+
+}
+
+.list_main_en {
+    font-family: 'Caudex';
+    color: #fff !important;
+
+}
+
+.main_content h1 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.main_content_en h1 {
+    font-family: 'Caudex';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.logolopburi {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: #FBF7EE !important;
+    z-index: 20;
+}
+
+.gallery_museum_top{
+    padding-top: 7%;
+}
+
+.museum {
+    position: absolute;
+    background: url('../images/mesum.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: #FBF7EE !important;
+    z-index: 20;
+}
+
+.logo {
+    position: absolute;
+    width: 171px;
+    height: 171px;
+    left: 110px;
+    top: 347px;
+}
+
+.lang_logo {
+    padding-top: 65px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 310px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+}
+
+#topRightFixed {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 6px;
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.grid-container {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 5px;
+}
+
+.grid-container-page{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 20px;
+}
+
+.grid-container-museum{
+    margin-top: 70%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+}
+
+.yellow_b{
+    font-family: 'Noto Looped Thai'  !important;
+    color:#000 !important;
+    width: 100% !important;
+    
+}
+
+.grid-item {
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.show_ui {
+    width: 95px;
+    height:auto;
+}
+
+
+/*Hook*/
+.ui-page-theme-a .ui-btn {
+    background-color: #f6f6f600 !important;
+    border-color: #ddd0 !important;
+    color: #000
+    /*{a-bup-color}*/
+     !important;
+    text-shadow: 0 !important;
+}
+
+.ui-page-theme-a a {
+    font-weight: normal !important;
+}
+
+p {
+    display: block;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.video{width:100vw; height: auto;}
+
+.arui-btn{
+    background-color: #f6f6f6 !important;
+    border-color: #ddd !important;
+    color: #000 !important;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Noto Looped Thai'  !important;
+    font-size: 15px;
+    box-shadow: 3px 3px #aaa;
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Language | The King Narai's Palace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <div id="pc">
+    <div class="logolopburi" data-role="page" data-dom-cache="false" data-cache="never">
+        <div id="topRightFixed">
+            <a href="sutthasawan_en.html" data-prefetch data-transition="slide" class="ui-btn">
+                <img src="images/back.png" />
+            </a>
+        </div>
+        <div class="gallery_content gallery_top">Suttha Sawan Pavilion</div>
+        <!--Content-->
+        <div class="grid-container-gallery">
+            <div class="grid-item-gallery" onclick="openModal();currentSlide(1)">
+                <img src="gallery/sutthasawan/Suthasawan Hallimage 01.png" />
+            </div>
+            <div class="grid-item-gallery" onclick="openModal();currentSlide(2)">
+                <img src="gallery/sutthasawan/Suthasawan Hallimage 02.png" />
+            </div>
+            <div class="grid-item-gallery" onclick="openModal();currentSlide(3)">
+                <img src="gallery/sutthasawan/Suthasawan Hallimage 03.png" />
+            </div>
+            <div class="grid-item-gallery" onclick="openModal();currentSlide(4)">
+                <img src="gallery/sutthasawan/Suthasawan Hallimage 04.png" />
+            </div>
+            <div class="grid-item-gallery" onclick="openModal();currentSlide(5)">
+                <img src="gallery/sutthasawan/Suthasawan Hallimage 05.png" />
+            </div>
+            <div class="grid-item-gallery" onclick="openModal();currentSlide(6)">
+                <img src="gallery/sutthasawan/Suthasawan Hallimage 06.png" />
+            </div>
+            <div class="grid-item-gallery" onclick="openModal();currentSlide(7)">
+                <img src="gallery/sutthasawan/Suthasawan Hallimage 07.png" />
+            </div>
+            <div class="grid-item-gallery" onclick="openModal();currentSlide(8)">
+                <img src="gallery/sutthasawan/Suthasawan Hallimage 08.png" />
+            </div>
+            <div class="grid-item-gallery" onclick="openModal();currentSlide(9)">
+                <img src="gallery/sutthasawan/Suthasawan Hallimage 09.png" />
+            </div>
+            <div class="grid-item-gallery" onclick="openModal();currentSlide(10)">
+                <img src="gallery/sutthasawan/Suthasawan Hallimage 10.png" />
+            </div>
+            <div class="grid-item-gallery" onclick="openModal();currentSlide(11)">
+                <img src="gallery/sutthasawan/Suthasawan Hallimage 11.png" />
+            </div>
+            <div class="grid-item-gallery" onclick="openModal();currentSlide(12)">
+                <img src="gallery/sutthasawan/Suthasawan Hallimage 12.png" />
+            </div>
+            <div class="grid-item-gallery" onclick="openModal();currentSlide(13)">
+                <img src="gallery/sutthasawan/Suthasawan Hallimage 13.png" />
+            </div>
+            <div class="grid-item-gallery" onclick="openModal();currentSlide(14)">
+                <img src="gallery/sutthasawan/Suthasawan Hallimage 14.png" />
+            </div>
+            <div class="grid-item-gallery" onclick="openModal();currentSlide(15)">
+                <img src="gallery/sutthasawan/Suthasawan Hallimage 15.png" />
+            </div>
+            <div class="grid-item-gallery" onclick="openModal();currentSlide(16)">
+                <img src="gallery/sutthasawan/Suthasawan Hallimage 16.png" />
+            </div>
+        </div>
+
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 16</div>
+                    <img src="gallery/sutthasawan/Suthasawan Hallimage 01.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 16</div>
+                    <img src="gallery/sutthasawan/Suthasawan Hallimage 02.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 16</div>
+                    <img src="gallery/sutthasawan/Suthasawan Hallimage 03.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 16</div>
+                    <img src="gallery/sutthasawan/Suthasawan Hallimage 04.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 16</div>
+                    <img src="gallery/sutthasawan/Suthasawan Hallimage 04.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 16</div>
+                    <img src="gallery/sutthasawan/Suthasawan Hallimage 04.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 16</div>
+                    <img src="gallery/sutthasawan/Suthasawan Hallimage 04.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 16</div>
+                    <img src="gallery/sutthasawan/Suthasawan Hallimage 04.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 16</div>
+                    <img src="gallery/sutthasawan/Suthasawan Hallimage 04.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">10 / 16</div>
+                    <img src="gallery/sutthasawan/Suthasawan Hallimage 04.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">11 / 16</div>
+                    <img src="gallery/sutthasawan/Suthasawan Hallimage 04.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">12 / 16</div>
+                    <img src="gallery/sutthasawan/Suthasawan Hallimage 04.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">13 / 16</div>
+                    <img src="gallery/sutthasawan/Suthasawan Hallimage 04.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">14 / 16</div>
+                    <img src="gallery/sutthasawan/Suthasawan Hallimage 04.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">15 / 16</div>
+                    <img src="gallery/sutthasawan/Suthasawan Hallimage 04.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">16 / 16</div>
+                    <img src="gallery/sutthasawan/Suthasawan Hallimage 04.png" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+
+                <div class="column">
+                    <img class="demo cursor" src="gallery/sutthasawan/Suthasawan Hallimage 01.png" style="width:100%"
+                        onclick="currentSlide(1)" alt="พระที่นั่งสุทธาสวรรย์">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="gallery/sutthasawan/Suthasawan Hallimage 02.png" style="width:100%"
+                        onclick="currentSlide(2)" alt="พระที่นั่งสุทธาสวรรย์">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="gallery/sutthasawan/Suthasawan Hallimage 03.png" style="width:100%"
+                        onclick="currentSlide(3)" alt="พระที่นั่งสุทธาสวรรย์">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="gallery/sutthasawan/Suthasawan Hallimage 04.png" style="width:100%"
+                        onclick="currentSlide(4)" alt="พระที่นั่งสุทธาสวรรย์">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="gallery/sutthasawan/Suthasawan Hallimage 05.png" style="width:100%"
+                        onclick="currentSlide(5)" alt="พระที่นั่งสุทธาสวรรย์">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="gallery/sutthasawan/Suthasawan Hallimage 06.png" style="width:100%"
+                        onclick="currentSlide(6)" alt="พระที่นั่งสุทธาสวรรย์">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="gallery/sutthasawan/Suthasawan Hallimage 07.png" style="width:100%"
+                        onclick="currentSlide(7)" alt="พระที่นั่งสุทธาสวรรย์">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="gallery/sutthasawan/Suthasawan Hallimage 08.png" style="width:100%"
+                        onclick="currentSlide(8)" alt="พระที่นั่งสุทธาสวรรย์">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="gallery/sutthasawan/Suthasawan Hallimage 09.png" style="width:100%"
+                        onclick="currentSlide(9)" alt="พระที่นั่งสุทธาสวรรย์">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="gallery/sutthasawan/Suthasawan Hallimage 10.png" style="width:100%"
+                        onclick="currentSlide(10)" alt="พระที่นั่งสุทธาสวรรย์">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="gallery/sutthasawan/Suthasawan Hallimage 11.png" style="width:100%"
+                        onclick="currentSlide(11)" alt="พระที่นั่งสุทธาสวรรย์">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="gallery/sutthasawan/Suthasawan Hallimage 12.png" style="width:100%"
+                        onclick="currentSlide(12)" alt="พระที่นั่งสุทธาสวรรย์">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="gallery/sutthasawan/Suthasawan Hallimage 13.png" style="width:100%"
+                        onclick="currentSlide(13)" alt="พระที่นั่งสุทธาสวรรย์">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="gallery/sutthasawan/Suthasawan Hallimage 14.png" style="width:100%"
+                        onclick="currentSlide(14)" alt="พระที่นั่งสุทธาสวรรย์">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="gallery/sutthasawan/Suthasawan Hallimage 15.png" style="width:100%"
+                        onclick="currentSlide(15)" alt="พระที่นั่งสุทธาสวรรย์">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="gallery/sutthasawan/Suthasawan Hallimage 16.png" style="width:100%"
+                        onclick="currentSlide(16)" alt="พระที่นั่งสุทธาสวรรย์">
+                </div>
+            </div>
+        </div>
+        <!--Content-->
+    </div>
+    </div>
+    <script>
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+</body>
+
+</html>
