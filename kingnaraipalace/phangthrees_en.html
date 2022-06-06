@@ -14,7 +14,7 @@
 
 <body>
     <div id="pc">
-    <div class="background_phang" data-role="page" data-dom-cache="true">
+    <div class="background_phang" data-role="page" data-dom-cache="false" data-cache="never">
         <div id="topRightFixed">
             <a href="attractions_en.html" data-prefetch data-transition="slide" class="ui-btn">
                 <img src="images/back.png" />
@@ -26,13 +26,14 @@
         <div>
             <div class="grid-container-page">
                 <div class="grid-item">
-                    <a href="#" class="arui-btn">Informations</a>
+                    <a href="#">
+                        <img src="images/profile.png" class="show_ui"/>
+                    </a>
                 </div>
                 <div class="grid-item">
-                    <a href="phang_gallery.html" class="arui-btn">Gallery</a>
-                </div>
-                <div class="grid-item">
-                    <a href="#popupMap" data-rel="popup" data-position-to="window" class="arui-btn">Map</a>
+                    <a href="#popupMap" data-rel="popup" data-position-to="window">
+                        <img src="images/mapfont.png" class="show_ui"/>
+                    </a>
                     <div data-role="popup" id="popupMap" data-overlay-theme="a" data-theme="a" data-corners="false"
                         data-tolerance="15,15">
                         <a href="#" data-rel="back"
