@@ -9,7 +9,7 @@ Daydev Co., Ltd.
 
 @font-face {
     font-family: 'Noto Looped Thai';
-    src: url(../fonts/NotoSerifThai-Regular.ttf);
+    src: url(../fonts/Trirong-SemiBold.ttf);
 }
 
 h1 {
@@ -171,10 +171,11 @@ h2 {
     background-size: cover !important;
     height: auto;
     width: 91%;
+    padding-top: 20px !important;
 }
 
 .profile{
-    padding: 35px 20px 20px 20px;
+    padding: 15px 20px 20px 20px;
     font-family: 'Noto Looped Thai';
     font-style: normal;
     font-weight: 200;
@@ -233,6 +234,20 @@ h2 {
     color: #374E48 !important;
 }
 
+.gallery_content_grid{
+    font-family: 'Noto Looped Thai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 31px;
+    border: 0px;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    color: #374E48 !important;
+}
+
+
 .main_content {
     font-family: 'Noto Looped Thai';
     font-weight: 500;
@@ -242,7 +257,7 @@ h2 {
     text-shadow: 0 0 black;
     padding: 70% 30px 0px 30px;
     color: #FBC94C;
-    text-shadow: 2px 2px #000;
+    /*text-shadow: 2px 2px #000;*/
 }
 
 .main_content_en {
@@ -254,7 +269,7 @@ h2 {
     text-shadow: 0 0 black;
     padding: 60% 30px 0px 30px;
     color: #FBC94C;
-    text-shadow: 2px 2px #000;
+    /*text-shadow: 2px 2px #000;*/
 }
 
 .content {
@@ -266,7 +281,7 @@ h2 {
     text-shadow: 0 0 black;
     padding: 70% 30px 0px 30px;
     color: #FBC94C;
-    text-shadow: 2px 2px #000;
+    text-shadow: 1px 1px #000;
 }
 
 .content_full {
@@ -278,7 +293,7 @@ h2 {
     text-shadow: 0 0 black;
     padding: 50% 30px 0px 30px;
     color: #FBC94C;
-    text-shadow: 2px 2px #000;
+    /*text-shadow: 2px 2px #000;*/
 }
 
 .content_full h1 {
@@ -358,9 +373,24 @@ h2 {
     padding-top: 7%;
 }
 
+.cover{width:100%; height:auto;}
+
 .museum {
     position: absolute;
     background: url('../images/mesum.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: #FBF7EE !important;
+    z-index: 20;
+}
+
+.maps {
+    position: absolute;
+    background: url('../images/bgmaps.png') !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     width: 100vw;
@@ -405,21 +435,26 @@ h2 {
 }
 
 .grid-container {
-    margin-top: 10%;
+    margin-top: 1%;
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 5px;
 }
 
 .grid-container-page{
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    margin-top: 5px;
     padding: 20px;
 }
 
 .grid-container-museum{
     margin-top: 70%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+}
+
+.grid-container-maps{
+    margin-top: 20%;
     display: grid;
     grid-template-columns: auto auto;
     padding: 5px;
